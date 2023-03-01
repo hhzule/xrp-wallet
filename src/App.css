@@ -1,6 +1,6 @@
 .main{
 
-height: 100vh;
+min-height: 100vh;
 }
 .main{
   background: url('./assets/bgreal.png') no-repeat;
@@ -11,7 +11,80 @@ background-position: 50%;
 background-size: cover;
 padding: 0% 0 0%;
 position: relative;
+
 }
 body{
-  background: #11081f;;
+  background-color: #11081f !important;
+}
+.navbar{
+  width: 100%;
+  position: relative;
+  height: fit-content;
+  padding: 2.5rem 2.5rem 0px;
+  align-items: flex-start;
+  justify-content: space-between;
+  display: flex;
+}
+.navbar .middle{
+  padding: 0.5rem 0px;
+
+  flex: 1 1 0%;
+
+  display: flex;
+  flex-direction: column;
+  -moz-box-align: center;
+  align-items: center;
+  row-gap: 0.5rem;
+
+}
+.navbar .middle svg{
+  color: rgb(255, 255, 255) !important;
+  width: 9rem;
+height: auto;
+fill: white !important;
+
+}
+
+.navbar .middle h6{
+  overflow: hidden !important;
+display: block !important;
+margin: 0px !important;
+margin-block: 0px !important;
+margin-inline: 0px !important;
+font-size: 1.25rem !important;
+line-height: 130% !important;
+font-weight: 700 !important;
+color: white !important;
+}
+
+.navbar .right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: 1rem;
+}
+.content{
+  padding: 3px 0;
+  margin-top: 10px;
+}
+.formflex{
+}
+.formflex form{
+padding: 2rem;
+background-color: rgb(35, 35, 37);
+box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+}
+
+.formh6{
+  color: rgb(162, 162, 164);
+}
+.kvUiqN {
+  overflow: hidden;
+  display: block;
+  margin: 0px;
+  margin-block: 0px;
+  margin-inline: 0px;
+  font-size: 1rem;
+  line-height: 150%;
+  font-weight: 600;
 }
