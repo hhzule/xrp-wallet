@@ -12,6 +12,7 @@ import {
   // Select,
   Button,
   Flex,
+  Box,
 } from "@chakra-ui/react";
 import React from "react";
 
@@ -45,20 +46,38 @@ function Content() {
                   >
                     From{" "}
                   </FormLabel>
+                  <Box
+                    height={"3.75rem"}
+                    width={" 100%"}
+                    padding={"0.5rem"}
+                    backgroundColor={"rgb(52, 52, 55)"}
+                    display='flex'
+                    flexDirection={'column'}
+                    borderRadius='4px'
+
+
+                  
+                  >
+                    <div><p className="inputtext">Send</p></div>
+                    <div className="secrow">
                   <Input
                     type="text"
                     name="Send"
                     id="email_address"
-                    mt={2}
                     autoComplete="email"
-                    height={" 60px "}
-                    width={" 100%"}
-                    padding={"0.5rem"}
+                    
+                    height={'100%'}
+                    padding={"0rem"}
                     borderRadius={"4px"}
-                    border={"0.125rem solid transparent"}
                     _hover={"none"}
+                    flex={'1 1 0%'}
                     backgroundColor={"rgb(52, 52, 55)"}
+                    border={'none'}
                   />
+                  <h6 color="#A2A2A4" className="inputtext2 Typographystyles__TypographyRoot-sc-yapy9o-0 hiMeCb Typography Typography-heading Typographystyles__TypographyRoot-sc-y1lfxc-0 MRfmA">XRP</h6>
+                  </div>
+                  </Box>
+          
                 </FormControl>
                 <FormControl
                   as={GridItem}

@@ -223,3 +223,32 @@ margin-left: 10px;
 .conbtn:hover{
   background-color:  rgb(98, 6, 227);
 }
+.inputtext{
+  overflow: hidden;
+display: block;
+margin: 0px;
+margin-block: 0px;
+margin-inline: 0px;
+font-size: 0.75rem;
+line-height: 133%;
+color: rgb(162, 162, 164);
+}
+.secrow{
+  display: flex !important;
+flex-flow: row nowrap !important;
+-moz-box-align: center !important;
+align-items: center !important;
+justify-content: space-around;
+}
+.inputtext2{
+  color: rgb(162, 162, 164);
+opacity: 0.8;
+  overflow: hidden !important;
+  display: block !important;
+  margin: 0px !important;
+  margin-block: 0px !important;
+  margin-inline: 0px !important; 
+  font-size: 0.85rem !important;
+  line-height: 150% !important;
+  font-weight: 800 !important;
+}
