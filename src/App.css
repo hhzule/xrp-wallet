@@ -1,22 +1,20 @@
-.main{
-
-min-height: 100vh;
+.main {
+  min-height: 100vh;
 }
-.main{
-  background: url('./assets/bgreal.png') no-repeat;
+.main {
+  background: url("./assets/bgreal.png") no-repeat;
   background-position-x: 0%;
   background-position-y: 0%;
   background-size: auto;
-background-position: 50%;
-background-size: cover;
-padding: 0% 0 0%;
-position: relative;
-
+  background-position: 50%;
+  background-size: cover;
+  padding: 0% 0 0%;
+  position: relative;
 }
-body{
+body {
   background-color: #11081f !important;
 }
-.navbar{
+.navbar {
   width: 100%;
   position: relative;
   height: fit-content;
@@ -24,58 +22,71 @@ body{
   align-items: flex-start;
   justify-content: space-between;
   display: flex;
+
+  -moz-box-align: center !important;
+  align-items: center !important;
+  padding-bottom: 0px !important;
+  row-gap: 1rem !important;
+  -moz-box-pack: justify !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+  position: relative !important;
+  height: fit-content !important;
+  padding: 2.5rem 2.5rem 0px !important;
+  -moz-box-pack: justify !important;
+  justify-content: space-between !important;
+  display: flex !important;
 }
-.navbar .middle{
-  padding: 0.5rem 0px;
+.navbar .middle {
+  padding: 0.5rem 0px !important;
 
-  flex: 1 1 0%;
+  flex: 1 1 0% !important;
 
-  display: flex;
-  flex-direction: column;
-  -moz-box-align: center;
-  align-items: center;
-  row-gap: 0.5rem;
-
+  display: flex !important;
+  flex-direction: column !important;
+  -moz-box-align: center !important;
+  align-items: center !important;
+  row-gap: 0.5rem !important;
 }
-.navbar .middle svg{
+.navbar .middle svg {
   color: rgb(255, 255, 255) !important;
   width: 9rem;
-height: auto;
-fill: white !important;
-
+  height: auto;
+  fill: white !important;
 }
 
-.navbar .middle h6{
+.navbar .middle h6 {
   overflow: hidden !important;
-display: block !important;
-margin: 0px !important;
-margin-block: 0px !important;
-margin-inline: 0px !important;
-font-size: 1.25rem !important;
-line-height: 130% !important;
-font-weight: 700 !important;
-color: white !important;
+  display: block !important;
+  margin: 0px !important;
+  margin-block: 0px !important;
+  margin-inline: 0px !important;
+  font-size: 1.25rem !important;
+  line-height: 130% !important;
+  font-weight: 700 !important;
+  color: white !important;
 }
 
-.navbar .right{
+.navbar .right {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   row-gap: 1rem;
 }
-.content{
+.content {
   padding: 3px 0;
   margin-top: 10px;
 }
-.formflex{
+.formflex {
 }
-.formflex form{
-padding: 2rem;
-background-color: rgb(35, 35, 37);
-box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+.formflex form {
+  padding: 2rem;
+  background-color: rgb(35, 35, 37);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px,
+    rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
 }
 
-.formh6{
+.formh6 {
   color: rgb(162, 162, 164);
 }
 .kvUiqN {
@@ -87,4 +98,128 @@ box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10p
   font-size: 1rem;
   line-height: 150%;
   font-weight: 600;
+}
+.switchnetwork {
+  transition: all 200ms ease 0s !important;
+  cursor: pointer !important;
+  user-select: none !important;
+  position: relative !important;
+  isolation: isolate !important;
+  display: flex !important;
+  -moz-box-align: center !important;
+  align-items: center !important;
+  -moz-box-pack: center !important;
+  justify-content: center !important;
+  column-gap: 10px !important;
+  box-sizing: border-box !important;
+  outline: currentcolor none medium !important;
+  font-size: 0.875rem !important;
+  height: 2.5rem !important;
+  padding: 0px 0.5rem !important;
+  border-radius: 4px !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  color: rgb(180, 128, 255) !important;
+  border: 2px solid !important;
+  background-color: transparent !important;
+  min-width: 12rem !important;
+  pointer-events: none !important;
+  opacity: 0.4 !important;
+}
+.switchnetwork span div {
+  display: flex !important;
+  flex-flow: row nowrap !important;
+  -moz-box-align: center !important;
+  align-items: center !important;
+  column-gap: 0.5rem !important;
+}
+.divider {
+  height: 1px !important;
+  background-color: rgb(69, 69, 73) !important;
+  width: 100% !important;
+}
+.right {
+  flex: 1 1 0% !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-end !important;
+  row-gap: 1rem !important;
+}
+.left {
+
+  flex: 1 1 0% !important;
+}
+
+@media only screen and (max-width: 1360px) {
+
+
+  .navbar{
+    flex-direction: column !important;
+  
+  }
+
+}
+
+.notconnecteddot{
+  width: 0.5rem;
+height: 0.5rem;
+border-radius: 50%;
+background: rgb(162, 162, 164) none repeat scroll 0% 0%;
+}
+.rightone{
+  display: flex;
+flex-flow: row nowrap;
+-moz-box-align: center;
+align-items: center;
+column-gap: 0.5rem;
+}
+.notconnected {
+    white-space: nowrap;
+    color: rgb(162, 162, 164);
+    overflow: hidden;
+    display: block;
+    margin: 0px;
+    margin-block: 0px;
+    margin-inline: 0px;
+    font-size: 0.875rem;
+    line-height: 143%;
+    font-weight: 500;
+}
+.conbtn {
+  white-space: nowrap;
+min-width: 11.75rem;
+font-size: 0.875rem;
+height: 2rem;
+padding: 0px 0.375rem;
+border-radius: 4px;
+border: 0px none;
+font-weight: 600;
+text-transform: none;
+color: rgb(245, 245, 247);
+position: relative;
+isolation: isolate;
+display: flex;
+-moz-box-align: center;
+align-items: center;
+-moz-box-pack: center;
+justify-content: center;
+column-gap: 10px;
+box-sizing: border-box;
+outline: currentcolor none medium;
+cursor: pointer;
+user-select: none;
+transition: all 200ms ease 0s;
+background: radial-gradient(97.46% 156.69% at 50% 50%,#5a00cd 0,#33c5bc 100%,rgba(157,105,181,0) 0);
+height: 50px;
+left: -11px;
+top: 0;
+transition: all .3s ease-in;
+width: 60%;
+border-radius: 50px;
+margin-left: 10px;
+
+}
+.conbtn:hover{
+  background-color:  rgb(98, 6, 227);
 }

@@ -3,7 +3,7 @@ import React from "react";
 function Navbar() {
   return (
     <div className="navbar">
-      <div></div>
+      <div className="left"></div>
       <div className="middle">
         <svg
           width="312"
@@ -38,7 +38,50 @@ function Navbar() {
           Transfer assets across XRPL chains.
         </h6>
       </div>
-      <div className="right"></div>
+      <div class=" right Colstyles__ColRoot-sc-19t3c23-0 kFLCFn wallet">
+        <div class="rightone Rowstyles__RowRoot-sc-x5gyks-0 kRfWwY">
+          <div
+            class="notconnecteddot  ConnectedDotstyles__ConnectedDotRoot-sc-q1ohp8-0 ewQnlY connected-dot"
+            data-testid="connectedDot"
+          ></div>
+          <span
+            font-weight="500"
+            color="#A2A2A4"
+            class="notconnected Typographystyles__TypographyRoot-sc-yapy9o-0 eSNUYY Typography Typography-caption1 Typographystyles__TypographyRoot-sc-y1lfxc-0 MRfmA ConnectWalletButton___StyledTypography-sc-c4zzpc-0 iXCPtv"
+          >
+            Not Connected
+          </span>
+          <button
+            class="conbtn Buttonstyles__ButtonRoot-sc-16rn1ht-2 jVcTIg Button Md Primary Buttonstyles__ButtonRoot-sc-1btfe8w-0 ConnectWalletButton___StyledButton-sc-c4zzpc-1 ieSBcx jAyDPZ"
+            type="button"
+          >
+            <span class="Buttonstyles__ButtonContent-sc-16rn1ht-1 DyOrS">
+              Connect Xumm Wallet
+            </span>
+          </button>
+        </div>
+        <div class="rightone Rowstyles__RowRoot-sc-x5gyks-0 kRfWwY">
+          <div
+            class="notconnecteddot ConnectedDotstyles__ConnectedDotRoot-sc-q1ohp8-0 ewQnlY connected-dot"
+            data-testid="connectedDot"
+          ></div>
+          <span
+            font-weight="500"
+            color="#A2A2A4"
+            class="notconnected Typographystyles__TypographyRoot-sc-yapy9o-0 eSNUYY Typography Typography-caption1 Typographystyles__TypographyRoot-sc-y1lfxc-0 MRfmA ConnectWalletButton___StyledTypography-sc-c4zzpc-0 iXCPtv"
+          >
+            Not Connected
+          </span>
+          <button
+            class="conbtn Buttonstyles__ButtonRoot-sc-16rn1ht-2 jVcTIg Button Md Primary Buttonstyles__ButtonRoot-sc-1btfe8w-0 ConnectWalletButton___StyledButton-sc-c4zzpc-1 ieSBcx jAyDPZ"
+            type="button"
+          >
+            <span class="Buttonstyles__ButtonContent-sc-16rn1ht-1 DyOrS">
+              Connect Metamask Wallet
+            </span>
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
