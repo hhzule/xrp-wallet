@@ -163,8 +163,6 @@ function Content() {
                   <FormLabel
                     htmlFor="first_name"
                     fontSize="0.875rem"
-                    lineHeight={"150%"}
-                    fontWeight="600"
                     color="white"
                     textAlign={"center"}
                     columnGap={"5px"}
@@ -228,8 +226,6 @@ function Content() {
                   <FormLabel
                     htmlFor="first_name"
                     fontSize="0.875rem"
-                    lineHeight={"150%"}
-                    fontWeight="600"
                     color="white"
                     textAlign={"center"}
                     columnGap={"5px"}
@@ -286,8 +282,6 @@ function Content() {
                   <FormLabel
                     htmlFor="first_name"
                     fontSize="0.8rem"
-                    lineHeight={"150%"}
-                    fontWeight="600"
                     color="white"
                     textAlign={"center"}
                     columnGap={"0px"}
